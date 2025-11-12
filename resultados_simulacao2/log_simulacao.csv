@@ -1,0 +1,143 @@
+hora,evento,paciente_id,detalhes
+3,CHEGADA,12247.0,Gravidade: 3
+3,OTIMIZACAO,,Iniciando para 1 pacientes.
+3,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=85.9%, Mudanças=0"
+3,ALOCACAO,12247.0,Alocado no Leito 1 por 233h.
+4,CHEGADA,21476.0,Gravidade: 2
+4,OTIMIZACAO,,Iniciando para 1 pacientes.
+4,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=72.0%, Mudanças=0"
+4,ALOCACAO,21476.0,Alocado no Leito 2 por 227h.
+7,CHEGADA,11222.0,Gravidade: 3
+7,OTIMIZACAO,,Iniciando para 1 pacientes.
+7,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=56.5%, Mudanças=0"
+7,ALOCACAO,11222.0,Alocado no Leito 3 por 247h.
+8,CHEGADA,18035.0,Gravidade: 3
+8,OTIMIZACAO,,Iniciando para 1 pacientes.
+8,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=41.8%, Mudanças=0"
+8,ALOCACAO,18035.0,Alocado no Leito 4 por 235h.
+9,CHEGADA,4397.0,Gravidade: 2
+9,OTIMIZACAO,,Iniciando para 1 pacientes.
+9,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=21.6%, Mudanças=0"
+9,ALOCACAO,4397.0,Alocado no Leito 5 por 319h.
+11,CHEGADA,10842.0,Gravidade: 1
+11,OTIMIZACAO,,Iniciando para 1 pacientes.
+11,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=8.2%, Mudanças=0"
+11,ALOCACAO,10842.0,Alocado no Leito 6 por 204h.
+16,CHEGADA,21787.0,Gravidade: 3
+16,CHEGADA,2004.0,Gravidade: 3
+16,OTIMIZACAO,,Iniciando para 2 pacientes.
+16,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=0.0%, Mudanças=0"
+17,CHEGADA,6936.0,Gravidade: 3
+17,OTIMIZACAO,,Iniciando para 3 pacientes.
+17,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=0.0%, Mudanças=2"
+24,OTIMIZACAO,,Iniciando para 3 pacientes.
+24,DECISAO,,"Plano #2 escolhido. Risco=0, Ociosidade=0.0%, Mudanças=3"
+28,CHEGADA,12911.0,Gravidade: 1
+28,OTIMIZACAO,,Iniciando para 4 pacientes.
+28,DECISAO,,"Plano #1 escolhido. Risco=0, Ociosidade=0.0%, Mudanças=3"
+30,CHEGADA,16039.0,Gravidade: 3
+30,CHEGADA,2300.0,Gravidade: 2
+30,OTIMIZACAO,,Iniciando para 6 pacientes.
+30,DECISAO,,"Plano #1 escolhido. Risco=307, Ociosidade=0.0%, Mudanças=4"
+34,CHEGADA,16117.0,Gravidade: 3
+34,OTIMIZACAO,,Iniciando para 7 pacientes.
+34,DECISAO,,"Plano #1 escolhido. Risco=675, Ociosidade=0.0%, Mudanças=6"
+35,CHEGADA,17962.0,Gravidade: 3
+35,OTIMIZACAO,,Iniciando para 8 pacientes.
+35,DECISAO,,"Plano #1 escolhido. Risco=1129, Ociosidade=0.0%, Mudanças=7"
+36,OTIMIZACAO,,Iniciando para 8 pacientes.
+36,DECISAO,,"Plano #1 escolhido. Risco=1129, Ociosidade=0.0%, Mudanças=4"
+38,CHEGADA,20177.0,Gravidade: 3
+38,OTIMIZACAO,,Iniciando para 9 pacientes.
+38,DECISAO,,"Plano #1 escolhido. Risco=1533, Ociosidade=0.0%, Mudanças=8"
+42,CHEGADA,19844.0,Gravidade: 3
+42,OTIMIZACAO,,Iniciando para 10 pacientes.
+42,DECISAO,,"Plano #1 escolhido. Risco=2049, Ociosidade=0.0%, Mudanças=9"
+46,CHEGADA,9901.0,Gravidade: 1
+46,OTIMIZACAO,,Iniciando para 11 pacientes.
+46,DECISAO,,"Plano #1 escolhido. Risco=2239, Ociosidade=0.0%, Mudanças=10"
+48,OTIMIZACAO,,Iniciando para 11 pacientes.
+48,DECISAO,,"Plano #2 escolhido. Risco=2239, Ociosidade=0.0%, Mudanças=10"
+49,CHEGADA,134.0,Gravidade: 1
+49,OTIMIZACAO,,Iniciando para 12 pacientes.
+49,DECISAO,,"Plano #1 escolhido. Risco=2433, Ociosidade=0.0%, Mudanças=11"
+54,CHEGADA,6425.0,Gravidade: 3
+54,OTIMIZACAO,,Iniciando para 13 pacientes.
+54,DECISAO,,"Plano #1 escolhido. Risco=2848, Ociosidade=0.0%, Mudanças=12"
+58,CHEGADA,18641.0,Gravidade: 3
+58,OTIMIZACAO,,Iniciando para 14 pacientes.
+58,DECISAO,,"Plano #1 escolhido. Risco=3169, Ociosidade=0.0%, Mudanças=13"
+59,CHEGADA,14508.0,Gravidade: 1
+59,CHEGADA,18573.0,Gravidade: 1
+59,OTIMIZACAO,,Iniciando para 16 pacientes.
+59,DECISAO,,"Plano #1 escolhido. Risco=3746, Ociosidade=0.0%, Mudanças=14"
+60,OTIMIZACAO,,Iniciando para 16 pacientes.
+60,DECISAO,,"Plano #1 escolhido. Risco=3746, Ociosidade=0.0%, Mudanças=14"
+64,CHEGADA,9400.0,Gravidade: 1
+64,OTIMIZACAO,,Iniciando para 17 pacientes.
+64,DECISAO,,"Plano #1 escolhido. Risco=4029, Ociosidade=0.0%, Mudanças=16"
+66,CHEGADA,5749.0,Gravidade: 1
+66,OTIMIZACAO,,Iniciando para 18 pacientes.
+66,DECISAO,,"Plano #1 escolhido. Risco=4291, Ociosidade=0.0%, Mudanças=17"
+67,CHEGADA,19271.0,Gravidade: 3
+67,OTIMIZACAO,,Iniciando para 19 pacientes.
+67,DECISAO,,"Plano #1 escolhido. Risco=4919, Ociosidade=0.0%, Mudanças=18"
+68,CHEGADA,5934.0,Gravidade: 3
+68,OTIMIZACAO,,Iniciando para 20 pacientes.
+68,DECISAO,,"Plano #1 escolhido. Risco=5362, Ociosidade=0.0%, Mudanças=19"
+72,OTIMIZACAO,,Iniciando para 20 pacientes.
+72,DECISAO,,"Plano #1 escolhido. Risco=5350, Ociosidade=0.0%, Mudanças=20"
+73,CHEGADA,4903.0,Gravidade: 2
+73,OTIMIZACAO,,Iniciando para 21 pacientes.
+73,DECISAO,,"Plano #1 escolhido. Risco=5971, Ociosidade=0.0%, Mudanças=20"
+78,CHEGADA,11845.0,Gravidade: 2
+78,OTIMIZACAO,,Iniciando para 22 pacientes.
+78,DECISAO,,"Plano #1 escolhido. Risco=6436, Ociosidade=0.0%, Mudanças=21"
+79,CHEGADA,15631.0,Gravidade: 3
+79,OTIMIZACAO,,Iniciando para 23 pacientes.
+79,DECISAO,,"Plano #1 escolhido. Risco=7211, Ociosidade=0.0%, Mudanças=22"
+84,OTIMIZACAO,,Iniciando para 23 pacientes.
+84,DECISAO,,"Plano #1 escolhido. Risco=7216, Ociosidade=0.0%, Mudanças=20"
+85,CHEGADA,18901.0,Gravidade: 3
+85,OTIMIZACAO,,Iniciando para 24 pacientes.
+85,DECISAO,,"Plano #1 escolhido. Risco=7778, Ociosidade=0.0%, Mudanças=23"
+90,CHEGADA,9841.0,Gravidade: 3
+90,OTIMIZACAO,,Iniciando para 25 pacientes.
+90,DECISAO,,"Plano #1 escolhido. Risco=8758, Ociosidade=0.0%, Mudanças=24"
+95,CHEGADA,21219.0,Gravidade: 3
+95,OTIMIZACAO,,Iniciando para 26 pacientes.
+95,DECISAO,,"Plano #1 escolhido. Risco=9316, Ociosidade=0.0%, Mudanças=25"
+96,OTIMIZACAO,,Iniciando para 26 pacientes.
+96,DECISAO,,"Plano #1 escolhido. Risco=9343, Ociosidade=0.0%, Mudanças=25"
+97,CHEGADA,4639.0,Gravidade: 3
+97,CHEGADA,2988.0,Gravidade: 3
+97,OTIMIZACAO,,Iniciando para 28 pacientes.
+97,DECISAO,,"Plano #1 escolhido. Risco=10929, Ociosidade=0.0%, Mudanças=26"
+104,CHEGADA,16937.0,Gravidade: 2
+104,OTIMIZACAO,,Iniciando para 29 pacientes.
+104,DECISAO,,"Plano #1 escolhido. Risco=11670, Ociosidade=0.0%, Mudanças=28"
+105,CHEGADA,14759.0,Gravidade: 1
+105,OTIMIZACAO,,Iniciando para 30 pacientes.
+105,DECISAO,,"Plano #1 escolhido. Risco=11889, Ociosidade=0.0%, Mudanças=29"
+106,CHEGADA,21948.0,Gravidade: 3
+106,OTIMIZACAO,,Iniciando para 31 pacientes.
+106,DECISAO,,"Plano #1 escolhido. Risco=13019, Ociosidade=0.0%, Mudanças=30"
+107,CHEGADA,7703.0,Gravidade: 3
+107,OTIMIZACAO,,Iniciando para 32 pacientes.
+107,DECISAO,,"Plano #1 escolhido. Risco=13171, Ociosidade=0.0%, Mudanças=31"
+108,OTIMIZACAO,,Iniciando para 32 pacientes.
+108,DECISAO,,"Plano #1 escolhido. Risco=13262, Ociosidade=0.0%, Mudanças=31"
+112,CHEGADA,15430.0,Gravidade: 1
+112,OTIMIZACAO,,Iniciando para 33 pacientes.
+112,DECISAO,,"Plano #1 escolhido. Risco=13922, Ociosidade=0.0%, Mudanças=32"
+117,CHEGADA,11290.0,Gravidade: 2
+117,OTIMIZACAO,,Iniciando para 34 pacientes.
+117,DECISAO,,"Plano #1 escolhido. Risco=14799, Ociosidade=0.0%, Mudanças=33"
+120,OTIMIZACAO,,Iniciando para 34 pacientes.
+120,DECISAO,,"Plano #1 escolhido. Risco=14814, Ociosidade=0.0%, Mudanças=32"
+132,OTIMIZACAO,,Iniciando para 34 pacientes.
+132,DECISAO,,"Plano #1 escolhido. Risco=14814, Ociosidade=0.0%, Mudanças=33"
+144,OTIMIZACAO,,Iniciando para 34 pacientes.
+144,DECISAO,,"Plano #1 escolhido. Risco=14814, Ociosidade=0.0%, Mudanças=30"
+156,OTIMIZACAO,,Iniciando para 34 pacientes.
+156,DECISAO,,"Plano #1 escolhido. Risco=14814, Ociosidade=0.0%, Mudanças=30"

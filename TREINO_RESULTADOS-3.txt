@@ -1,0 +1,95 @@
+(venv) C:\Users\User\Desktop\_uti>python pipeline_extracao_completo.py
+🚀 Iniciando carregamento de múltiplos arquivos...
+  -> Processando arquivo: ETLSIH.ST_MG_2025_5_t.csv
+     ✅ Carregado com 138,625 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_4_t.csv
+     ✅ Carregado com 130,189 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_3_t.csv
+     ✅ Carregado com 127,594 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_2_t.csv
+     ✅ Carregado com 122,261 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_1_t.csv
+     ✅ Carregado com 126,297 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_12_t.csv
+     ✅ Carregado com 122,938 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_11_t.csv
+     ✅ Carregado com 114,808 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_10_t.csv
+     ✅ Carregado com 131,551 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_9_t.csv
+     ✅ Carregado com 131,627 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_8_t.csv
+     ✅ Carregado com 134,027 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_7_t.csv
+     ✅ Carregado com 132,199 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_6_t.csv
+     ✅ Carregado com 122,592 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_5_t.csv
+     ✅ Carregado com 123,669 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_4_t.csv
+     ✅ Carregado com 137,528 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_3_t.csv
+     ✅ Carregado com 130,576 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_2_t.csv
+     ✅ Carregado com 119,706 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_1_t.csv
+     ✅ Carregado com 119,335 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_12_t.csv
+     ✅ Carregado com 119,097 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_11_t.csv
+     ✅ Carregado com 122,767 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_10_t.csv
+     ✅ Carregado com 119,403 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_9_t.csv
+     ✅ Carregado com 122,524 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_8_t.csv
+     ✅ Carregado com 120,794 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_7_t.csv
+     ✅ Carregado com 121,408 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_6_t.csv
+     ✅ Carregado com 122,555 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_5_t.csv
+     ✅ Carregado com 122,454 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_4_t.csv
+     ✅ Carregado com 116,414 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_3_t.csv
+     ✅ Carregado com 122,773 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_2_t.csv
+     ✅ Carregado com 107,100 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2023_1_t.csv
+     ✅ Carregado com 111,575 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_12_t.csv
+     ✅ Carregado com 116,067 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_11_t.csv
+     ✅ Carregado com 112,867 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_10_t.csv
+     ✅ Carregado com 114,891 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_9_t.csv
+     ✅ Carregado com 116,241 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_8_t.csv
+     ✅ Carregado com 121,754 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_7_t.csv
+     ✅ Carregado com 116,148 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_6_t.csv
+     ✅ Carregado com 112,689 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2022_5_t.csv
+     ✅ Carregado com 116,627 linhas.
+
+✅ Concatenação concluída! Total de 4,521,670 registros carregados.
+
+🔍 Filtrando registros para Juiz de Fora (MUNIC_MOV = 313670)...
+🏥 Encontrados 162,843 registros em Juiz de Fora no período total.
+
+🛠️  Criando e limpando features...
+
+🔬 Aplicando Filtro de Relevância Clínica para UTI...
+📊 População de interesse para UTI reduzida para 31,672 pacientes.
+⚖️  Classificando prioridade dos pacientes...
+
+💾 Exportando datasets para as próximas etapas...
+   ✅ 'dataset_para_ml.csv' criado com 31,672 registros.
+   ✅ 'dataset_para_otimizacao.csv' criado com 31,672 registros.
+
+🎉 Processo concluído com sucesso!
+
+👉 PRÓXIMO PASSO: Execute o script 'gerador_de_resultados.py' para treinar o modelo de ML com este dataset maior e mais robusto.

@@ -1,0 +1,35 @@
+(venv) C:\Users\User\Desktop\_uti>python gerador_de_resultados.py
+🚀 INICIANDO PROTÓTIPO COMPLETO: ML + OTIMIZAÇÃO NSGA-II 🚀
+
+--- FASE 1: TREINAMENTO DO MODELO PREDITIVO (XGBOOST) ---
+✅ Dataset 'dataset_para_ml.csv' carregado com 11012 registros.
+📊 Dados prontos para modelagem: 11012 registros limpos.
+🧠 Treinando o modelo XGBoost...
+✅ Modelo treinado!
+📈 Performance do Modelo: MAE = 5.51 dias | R² = 0.22
+✅ Gráfico de performance salvo.
+💾 Modelo de ML salvo como 'modelo_los.pkl'.
+
+
+--- FASE 2: CONFIGURAÇÃO DA SIMULAÇÃO E OTIMIZAÇÃO ---
+✅ Datasets unificados. Usando 40 pacientes para simulação.
+
+--- FASE 3: EXECUÇÃO DA SIMULAÇÃO DINÂMICA ---
+
+Compiled modules for significant speedup can not be used!
+https://pymoo.org/installation.html#installation
+
+To disable this warning:
+from pymoo.config import Config
+Config.warnings['not_compiled'] = False
+
+✅ Log completo da simulação salvo.
+🎉 SIMULAÇÃO CONCLUÍDA! 🎉
+
+
+--- FASE 4: GERAÇÃO DE RELATÓRIOS E GRÁFICOS FINAIS ---
+✅ Relatório final salvo.
+✅ Gráfico 'fronteira_pareto.png' salvo.
+✅ Gráfico 'cronograma_final.png' salvo.
+
+🎉 PROCESSO COMPLETO FINALIZADO! VERIFIQUE A PASTA 'resultados_simulacao'. 🎉

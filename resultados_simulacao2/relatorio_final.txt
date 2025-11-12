@@ -1,0 +1,16 @@
+RELATÓRIO FINAL DA SIMULAÇÃO
+==============================
+
+1. PERFORMANCE DO MODELO DE MACHINE LEARNING
+  - Erro Médio Absoluto (MAE): 6.00 dias
+  - Coeficiente de Determinação (R²): 0.23
+
+2. ÚLTIMA FRONTEIRA DE PARETO GERADA
+ID | Risco (Paciente) | Ociosidade (%) | Mudanças
+#1  | 14814            | 0.0            | 30       
+#2  | 14788            | 0.0            | 34       
+
+3. MÉTRICAS GLOBAIS DA SIMULAÇÃO
+  - Tempo de Espera Médio: 0.00 horas
+  - Taxa de Ocupação Final: 87.20%
+  - Pacientes Alocados: 6 de 40

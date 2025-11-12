@@ -1,0 +1,45 @@
+(venv) C:\Users\User\Desktop\_uti>python pipeline_extracao_completo.py
+🚀 Iniciando carregamento de múltiplos arquivos...
+  -> Processando arquivo: ETLSIH.ST_MG_2025_5_t.csv
+     ✅ Carregado com 138,625 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_4_t.csv
+     ✅ Carregado com 130,189 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_3_t.csv
+     ✅ Carregado com 127,594 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_2_t.csv
+     ✅ Carregado com 122,261 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2025_1_t.csv
+     ✅ Carregado com 126,297 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_12_t.csv
+     ✅ Carregado com 122,938 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_11_t.csv
+     ✅ Carregado com 114,808 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_10_t.csv
+     ✅ Carregado com 131,551 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_9_t.csv
+     ✅ Carregado com 131,627 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_8_t.csv
+     ✅ Carregado com 134,027 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_7_t.csv
+     ✅ Carregado com 132,199 linhas.
+  -> Processando arquivo: ETLSIH.ST_MG_2024_6_t.csv
+     ✅ Carregado com 122,592 linhas.
+
+✅ Concatenação concluída! Total de 1,534,708 registros carregados.
+
+🔍 Filtrando registros para Juiz de Fora (MUNIC_MOV = 313670)...
+🏥 Encontrados 54,779 registros em Juiz de Fora no período total.
+
+🛠️  Criando e limpando features...
+
+🔬 Aplicando Filtro de Relevância Clínica para UTI...
+📊 População de interesse para UTI reduzida para 11,012 pacientes.
+⚖️  Classificando prioridade dos pacientes...
+
+💾 Exportando datasets para as próximas etapas...
+   ✅ 'dataset_para_ml.csv' criado com 11,012 registros.
+   ✅ 'dataset_para_otimizacao.csv' criado com 11,012 registros.
+
+🎉 Processo concluído com sucesso!
+
+👉 PRÓXIMO PASSO: Execute o script 'gerador_de_resultados.py' para treinar o modelo de ML com este dataset maior e mais robusto.
